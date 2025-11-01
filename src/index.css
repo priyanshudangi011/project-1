@@ -1,0 +1,7 @@
+@import "tailwindcss";
+/* div{
+    position: a;
+} */
+*{
+    user-select: none;
+}

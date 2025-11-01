@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden; /* 🔥 stops whole page from scrolling horizontally */
+}
+
+/* Hide scrollbar globally */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+/* Optional: if you want a specific div (like #side) to scroll horizontally without showing scrollbar */
+#side {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+#side::-webkit-scrollbar {
+  display: none;
+}
