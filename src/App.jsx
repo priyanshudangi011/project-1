@@ -34,14 +34,14 @@ let anime = [
 
   return (
     <div>
-      <Routes>
-        <Route path='/project-1' element={<Home/>}/>
-        <Route path='/project-1/about' element={<About/>}/>
-        <Route path='/project-1/animelist' element={<Animelist user={anime}/>}/>
-        <Route path='/project-1/manga' element={<Manga/>}/>
-        <Route path='/project-1/community' element={<Community/>}/>
+    <Routes>
+  <Route path='/' element={<Home/>}/>
+  <Route path='/about' element={<About/>}/>
+  <Route path='/animelist' element={<Animelist user={anime}/>}/>
+  <Route path='/manga' element={<Manga/>}/>
+  <Route path='/community' element={<Community/>}/>
+</Routes>
 
-      </Routes>
      
 
     </div>
