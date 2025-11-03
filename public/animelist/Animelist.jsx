@@ -4,10 +4,10 @@ import Navbar from '../home/Navbar'
 
 const Animelist = ({ user }) => {
   return (
-    <div className='h-screen w-screen flex bg-gray-2go00 overflow-hidden '>
+    <div className='h-screen w-screen flex bg-gray-200 overflow-hidden '>
       {/* Sidebar */}
       <div className='h-full w-[30%] bg-gradient-to-bl from-orange-400 to-white'>
-        <h1 className='font-[700] uppercase text-[20px] pt-52 pl-9'>
+        <h1 className=' uppercase text-[20px] pt-52 pl-9 font-[700]'>
           Most <br /> Popular
         </h1> 
         <img className='h-[500px] w-[500px] absolute top-[30%] ' src="https://imgs.search.brave.com/rJ1UBw_UEBP8982RYnaJmsv1H7-kRiEKeif9USvOuO0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/cG5nbWFydC5jb20v/ZmlsZXMvMjMvQXN0/YS1QTkctSEQucG5n" alt="" />

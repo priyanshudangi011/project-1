@@ -12,13 +12,13 @@ const Community = () => {
     },
     {
       username: 'LuffyLover',
-      avatar: '/public/components/Luffy Sticker.jpg',
+      avatar: '/project-1/public/components/Luffy Sticker.jpg',
       content: 'One Piece chapter this week was mind-blowing! Gear 5 supremacy 💪',
       time: '5 hours ago',
     },
     {
       username: 'MangaReaderX',
-      avatar: '/public/components/download (1).jpg',
+      avatar: '/project-1/public/components/download (1).jpg',
       content: 'Vagabond is pure art. Takehiko Inoue is a legend ✨',
       time: '1 day ago',
     },
