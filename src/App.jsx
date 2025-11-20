@@ -24,7 +24,7 @@ const App = () => {
 // ]
 let anime = [
   { title: 'One Piece', img: '/components/Luffy Sticker.jpg' },
-  { title: 'Sakamoto Days', img: '/Sakamoto Days _ Manga Poster.jpg' },
+  { title: 'Sakamoto Days', img: '/components/Sakamoto Days _ Manga Poster.jpg' },
   { title: 'Bleach', img: '/components/Bleach.jpg' },
   { title: 'Berserk', img: '/components/download (1).jpg' },
   { title: 'Jujutsu Kaisen', img: '/components/Gojo Satoru Poster_.jpg' },

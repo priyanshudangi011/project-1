@@ -4,12 +4,12 @@ import Navbar from '../home/Navbar'
 
 const Manga = () => {
   const mangaList = [
-    { title: 'Berserk', img: '/download (1).jpg' },
-    { title: 'Vagabond', img: '/Vagabond Magna Poster - Christian Palacios.jpg' },
-    { title: 'Monstor', img: '/download (2).jpg' },
-    { title: 'Attack on Titan', img: '/Attack.jpg' },
-    { title: 'Jujutsu Kaisen', img: '/itadori jjk.jpg' },
-    { title: 'One Piece', img: '/Luffy Sticker.jpg' },
+    { title: 'Berserk', img: '/components/download (1).jpg' },
+    { title: 'Vagabond', img: '/components/Vagabond Magna Poster - Christian Palacios.jpg' },
+    { title: 'Monstor', img: '/components/download (2).jpg' },
+    { title: 'Attack on Titan', img: '/components/Attack.jpg' },
+    { title: 'Jujutsu Kaisen', img: '/components/itadori jjk.jpg' },
+    { title: 'One Piece', img: '/components/Luffy Sticker.jpg' },
   ];
 
   return (
