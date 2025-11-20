@@ -23,13 +23,13 @@ const App = () => {
 //   {title:'vagabond',img:'project-1/public/components/Vagabond Magna Poster - Christian Palacios.jpg'},{title:'itadore',img:'project-1/public/components/itadori jjk.jpg'}
 // ]
 let anime = [
-  { title: 'One Piece', img: 'Luffy Sticker.jpg' },
+  { title: 'One Piece', img: '/components/Luffy Sticker.jpg' },
   { title: 'Sakamoto Days', img: '/Sakamoto Days _ Manga Poster.jpg' },
-  { title: 'Bleach', img: 'components/Bleach.jpg' },
+  { title: 'Bleach', img: '/components/Bleach.jpg' },
   { title: 'Berserk', img: '/components/download (1).jpg' },
-  { title: 'Jujutsu Kaisen', img: '/Gojo Satoru Poster_.jpg' },
-  { title: 'Vagabond', img: '/Vagabond Magna Poster - Christian Palacios.jpg' },
-  { title: 'Itadori', img: '/itadori jjk.jpg' }
+  { title: 'Jujutsu Kaisen', img: '/components/Gojo Satoru Poster_.jpg' },
+  { title: 'Vagabond', img: '/components/Vagabond Magna Poster - Christian Palacios.jpg' },
+  { title: 'Itadori', img: '/components/itadori jjk.jpg' }
 ];
 
   return (
