@@ -2,6 +2,10 @@
 import React from 'react'
 import Navbar from '../home/Navbar'
 
+import './animelist.css';
+
+
+
 const Animelist = ({ user }) => {
   return (
     <div className='h-screen w-screen flex bg-gray-200 overflow-hidden '>
@@ -19,8 +23,8 @@ const Animelist = ({ user }) => {
         <h2 className='text-2xl font-bold mb-6'>Top Anime Picks</h2>
 
         {/* 👇 This div will scroll sideways (only this one) */}
-        <div id='side'
-          className='flex gap-6 overflow-x-auto scrollbar-hide scroll-smooth pb-4'
+        <div 
+          className='side flex gap-6 overflow-x-auto scrollbar-hide scroll-smooth pb-4'
         >
           {user.map((anime, index) => (
             <div
