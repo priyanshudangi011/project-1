@@ -29,7 +29,7 @@ const About = () => {
 
           <div className="mt-10 flex justify-center gap-8">
             <button className="px-6 py-3 bg-orange-500 text-white font-semibold rounded-lg shadow-md hover:bg-orange-600 transition">
-              Join the Community
+             <a href="http://localhost:5173/community"> Join the Community</a>
             </button>
             <button className="px-6 py-3 border-2 border-orange-500 text-orange-600 font-semibold rounded-lg hover:bg-orange-100 transition">
               <a href="http://localhost:5173/animelist">Explore Anime List</a>
